@@ -20,7 +20,7 @@ while True:
 	mouthTrack(faces, frame)
 	blinkStatus = isBlinking(faces, frame)
 	eyeStatus = gazeDetection(faces, frame)
-	print(blinkStatus[2]+' - '+eyeStatus)
+	#print(blinkStatus[2]+' - '+eyeStatus)
 
 
 	cv2.imshow('frame',frame)
