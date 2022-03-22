@@ -71,7 +71,7 @@ def head_pose_points(img, rotation_vector, translation_vector, camera_matrix):
     
 face_model = get_face_detector()
 landmark_model = get_landmark_model()
-cap = capture
+cap = cv2.VideoCapture(0)
 ret, img = cap.read()
 size = img.shape
 font = cv2.FONT_HERSHEY_SIMPLEX 
