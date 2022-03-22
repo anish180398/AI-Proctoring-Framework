@@ -6,7 +6,7 @@ from mouth_tracking import *
 from facial_landmarks_detection import *
 from blink_detection import *
 from gaze_detection import *
-from object_detection import *
+#from object_detection import *
 
 cap = cv2.VideoCapture(0)
 
@@ -21,11 +21,11 @@ while True:
 	mouthTrack(faces, frame)
 	blinkStatus = isBlinking(faces, frame)
 	eyeStatus = gazeDetection(faces, frame)
-	objectStatus = detectObject(frame)
+	#objectStatus = detectObject(frame)
 	#print(blinkStatus[2]+' - '+eyeStatus)
-	print(objectStatus)
+	#print(objectStatus)
 	print(eyeStatus)
-	
+
 
 
 	cv2.imshow('frame',frame)
