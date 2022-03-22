@@ -3,8 +3,8 @@ from math import hypot
 import numpy as np
 import dlib
 
-predictor = dlib.shape_predictor("../Landmarks/shape_predictor_68_face_landmarks.dat")
-
+predictor = dlib.shape_predictor("Landmarks/shape_predictor_68_face_landmarks.dat")
+print('mouth Tracking import Success!!')
 def distance(point_A,point_B):
 	"""
 	Input :

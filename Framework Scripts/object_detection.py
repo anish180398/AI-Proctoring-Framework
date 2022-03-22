@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import time
 
+print('Object Detection import Success!!')
 # net has the YOLO loaded
 net = cv2.dnn.readNet("weights/yolov3-tiny.weights","config/yolov3-tiny.cfg")
 

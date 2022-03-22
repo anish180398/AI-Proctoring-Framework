@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import dlib
 
-shapePredictorModel = "../Landmarks/shape_predictor_68_face_landmarks.dat"
+shapePredictorModel = "Landmarks/shape_predictor_68_face_landmarks.dat"
 shapePredictor = dlib.shape_predictor(shapePredictorModel)
 
 def detectFace(frame):

@@ -3,7 +3,7 @@ import numpy as np
 import dlib
 from facial_landmarks_detection import *
 
-print('import Success!!')
+print('gaze Detection import Success!!')
 
 def generateEyeRegion(landmarks,eyeIndices):
     """
