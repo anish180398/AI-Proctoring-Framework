@@ -23,6 +23,9 @@ while True:
 	eyeStatus = gazeDetection(faces, frame)
 	objectStatus = detectObject(frame)
 	#print(blinkStatus[2]+' - '+eyeStatus)
+	print(objectStatus)
+	print(eyeStatus)
+	
 
 
 	cv2.imshow('frame',frame)

@@ -1,4 +1,4 @@
-from main import capture
+
 import cv2
 import numpy as np
 import math
